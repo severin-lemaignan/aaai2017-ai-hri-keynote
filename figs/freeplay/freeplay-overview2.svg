@@ -27,8 +27,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="320.00417"
-     inkscape:cy="263.40881"
+     inkscape:cx="454.94446"
+     inkscape:cy="338.03529"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,41 +56,62 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-572.36211)">
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4137"
+       width="684.37836"
+       height="505.58136"
+       x="-21.718279"
+       y="560.41785" />
+    <rect
+       y="623.55237"
+       x="8.0812216"
+       height="212.63712"
+       width="306.48938"
+       id="rect4139"
+       style="opacity:1;fill:#f8f1d5;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <image
        sodipodi:absref="/home/skadge/talks/aaai2017-ai-hri-keynote/figs/freeplay/setup-child-child.png"
        xlink:href="setup-child-child.png"
-       width="307.12271"
-       height="230.34203"
-       preserveAspectRatio="none"
-       id="image4144"
+       y="605.62701"
        x="7.857192"
-       y="605.62701" />
+       id="image4144"
+       preserveAspectRatio="none"
+       height="230.34203"
+       width="307.12271" />
+    <rect
+       style="opacity:1;fill:#f8f1d5;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4141"
+       width="306.48938"
+       height="212.63712"
+       x="322.87"
+       y="623.55237" />
     <image
        sodipodi:absref="/home/skadge/talks/aaai2017-ai-hri-keynote/figs/freeplay/setup-child-robot.png"
        xlink:href="setup-child-robot.png"
-       width="307.12271"
-       height="230.34203"
-       preserveAspectRatio="none"
-       id="image4155"
+       y="606.94324"
        x="322.87735"
-       y="606.94324" />
+       id="image4155"
+       preserveAspectRatio="none"
+       height="230.34203"
+       width="307.12271" />
     <image
        sodipodi:absref="/home/skadge/talks/aaai2017-ai-hri-keynote/figs/freeplay/child-child-env.jpg"
        xlink:href="child-child-env.jpg"
-       width="307.95898"
-       height="173.17892"
-       preserveAspectRatio="none"
-       id="image4185"
+       y="845.28528"
        x="322.04108"
-       y="845.28528" />
+       id="image4185"
+       preserveAspectRatio="none"
+       height="173.17892"
+       width="307.95898" />
     <image
        sodipodi:absref="/home/skadge/talks/aaai2017-ai-hri-keynote/figs/freeplay/freeplay-sandbox.png"
        xlink:href="freeplay-sandbox.png"
-       width="306.83685"
-       height="172.59572"
-       preserveAspectRatio="none"
-       id="image4196"
+       y="843.96906"
        x="8.1430607"
-       y="843.96906" />
+       id="image4196"
+       preserveAspectRatio="none"
+       height="172.59572"
+       width="306.83685" />
   </g>
 </svg>

@@ -64,9 +64,9 @@
 %--------------------------------------------------------------------------
 % General presentation settings
 %--------------------------------------------------------------------------
-\title{From children free play to Robot AI}
+\title{From Children Free Play to Robot AI}
 \subtitle{on the way to artificial social cognition in HRI}
-\date{AAAI Fall Symposium -- AI-HRI Workshop -- {\bf 15 nov. 2017}}
+\date{{\bf AAAI Fall Symposium -- AI-HRI Workshop} -- 09 nov. 2017}
 \author{Séverin Lemaignan}
 \institute{Centre for Robotics and Neural Systems\\{\bf
 Plymouth University}}
@@ -100,13 +100,14 @@ Plymouth University}}
 
 \imageframe[caption={open, underspecified situations\par complex~social~dynamics\par rich~semantics\par interplay~of~socio-cognitive~functions}]{pr2-baby-3}
 
-%    \begin{itemize}
-%        \item open, underspecified situations
-%        \item complex social dynamics
-%        \item rich semantics
-%        \item interplay of several socio-cognitive functions
-%    \end{itemize}
-
+\note{
+    \begin{itemize}
+        \item open, underspecified situations
+        \item complex social dynamics
+        \item rich semantics
+        \item interplay of several socio-cognitive functions
+    \end{itemize}
+}
 
 {
 \paper{Baxter, Lemaignan, Trafton {\bf Workshop on Cognitive Architectures for Social HRI} -- HRI 2016}
@@ -162,205 +163,59 @@ Plymouth University}}
 
 \imageframe[caption={yet...}]{pr2-baby-3}
 
-\note{
-    Finding the right task is difficult!
+\begin{frame}{What methodology for social HRI?}
 
     \begin{itemize}
-        \item natural interaction $\Rightarrow$ meaningful task
-        \item realistic with today's technologies
-        \item reproducible and measurable
-        \item focused on social cognition
+        \item typical socio-cognitive tasks \textbf{too simple and
+            constrainted}
+            \note{
+            Do not reflect the complexity \& dynamics of real-world interactions
+            }
+        \item yet, research \emph{in the wild} is \textbf{difficult to conduct
+            rigorously and to replicate}
     \end{itemize}
-}
 
-%\videoframe[0.56]{figs/freeplay/maud-zoe-pilot-edit.mkv}
+    \pause
+
+    \textbf{Finding the right task is difficult}
+
+    \begin{itemize}
+        \item natural interactions $\Leftarrow$ meaningful task
+        \item realistic with today's technologies
+        \item practical, reproducible and measurable
+        \item focus on social cognition
+    \end{itemize}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section[Free play]{The Free play paradigm}
+
 \videoframe[0.56]{figs/freeplay/maud-zoe-pilot-edit.mkv?autostart&noaudio}
 
+\begin{frame}{Free play}
 
-\begin{frame}{One question}
+    \begin{center}
+    {\Large ``Just play! Enjoy yourselves!''}
+    \end{center}
 
-    \Large
-    \centering
+    \vspace{3em}
 
-    Can sociality emerge from interaction?
-
-    \pause
-    \normalsize
-    \vspace{2em}
-
-    Both ``emerge'' as \emph{arise from} and ``emerge`` as in \emph{emergent paradigm of
-    cognition}!
-
-    \pause
-
-    ``Social cognition arising in interaction''? certainly looks like a situated \&
-    embodied view on cognition
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-{
-    \paper{cited in Lewandowsky and Farrell, {\bf Computational Modeling In
-    Cognition}, 2011}
-\begin{frame}{A model?}
-
-    Models attempt to \emph{explain}: 
-    \begin{quote}
-        ``identifying the causes for an event or phenomenon of interest''
-    \end{quote}
-    \begin{quote}
-        ``unifying disparate phenomena''
-    \end{quote}
-
-        A model's value is gained from
-    \begin{quote}
-        ``predicting facts that, absent the theory, would be antecedently
-        improbable''
-    \end{quote}
-
-    \pause
-
-    ...we will come back to the predictive power of a model of artifical social
-    cognition.
-
-\end{frame}
-}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Sketching a model}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}{A model of artificial social cognition}
-
-    I postulate {\bf two stages}:
-
-    \begin{enumerate}
-        \item building models of others' minds
-        \item exploiting these models to socially act:
-            \begin{itemize}
-                \item prediction, reading others' intentions
-                \item adapting own behaviour, alignment
-                \item establish join goals
-                \item ultimately, performing joint actions
-            \end{itemize}
-    \end{enumerate}
-
-    \vspace{2em}
-    $\rightarrow$ Social analogs of \emph{perception} \& \emph{action}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-{
-    \paper{see discussion in Vernon, {\bf Artificial Cognitive Systems: A Primer} 2014}
-\begin{frame}{Cognitivist vs Emergent paradigms}
-
-    ``building'', ``exploiting'', ``reading'', ``establishing''... my terminolgy
-    denotes a cognitivist approach (`I, the designer of the system, explicitly implement
-    these capabilities')
-
-    \pause
-    
-    Possible `emergent paradigm' rephrasing:
-
-    \begin{enumerate}
-        \item developing internal states \emph{connoting} others' minds
-        \item perturbing (influencing) actions synthesis with these states
-    \end{enumerate}
-
-    \pause
-
-    {\bf Hybrid approaches} are possible -- mapping to ``raw phenomenal experience'' vs
-    ``access counciousness''.
-\end{frame}
-}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-{
-    \paper{Graziano {\bf Consciousness and the Social Brain} -- 2013}
-\begin{frame}[label=attentionschemata]{Modeling others' mind?}
-    \large
-    In cognitive neurosciences: Graziano's \emph{Attention Schemata Theory}
-
-    \begin{columns}
-
-        \begin{column}{0.5\linewidth}
-
-            \begin{center}
-                \includegraphics<1>[width=1.3\columnwidth]{playing_together}
-                \includegraphics<2>[width=1.3\columnwidth]{playing_together_gaze}
-                \includegraphics<3>[width=1.3\columnwidth]{playing_together_awareness}
-                \includegraphics<4>[width=1.3\columnwidth]{playing_together_mutual_awareness}
-            \end{center}
-
-        \end{column}
-
-        \begin{column}{0.5\linewidth}
-
-            \only<2>{
-                \vspace*{1.5cm}
-                Attention is more about {\bf representation} than visual perspective
-
-                \vspace{0.7cm}
-                ``Awareness is a construct that represents the attentional state
-                of a brain''
-
-            }
-            \only<3>{
-                \vspace*{1.5cm}
-                Graziano's postulate that modelling other's state of awareness
-                is {\bf mediated by one's own attentional system}, through joint
-                attention
-            }
-            \only<4>{
-                \vspace*{1.5cm}
-                    It follows that {\bf joint attention is the process that gives
-                    rise to social awareness}
-            }
-
-        \end{column}
-
-    \end{columns}
-
-\end{frame}
-}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}{Sketching a path forward: mentalizing}
-
-    {\bf Hypothesis 1}: Graziano is right: mental representations are snapshots of
-    \emph{awareness}, \emph{awareness} being itself a label for the
-    \emph{memory-mediated process of attention}.
-
-    \pause
-
-    {\bf Hypothesis 2}: this can be extended to social cognition. \textbf{Modeling one
-    other mental representations equates to taking snapshots of their current
-    state of awareness}.
-
-    As we do not have direct access to others' process of attention, it has to
-    be mediated. Following Graziano, we hypotesise that \textbf{modelling other's
-    state of awareness is mediated by one's own attentional system, through
-    joint attention mechanisms}.
+    \begin{itemize}
+        \item \textbf{rich set of cognitive and
+            social dynamics}; importance of motivation/drive; \textbf{uncertain
+            and unexpected situations}
+        \item what is the right action policy? Focus instead on the \textbf{social policy}
+    \end{itemize}
 
 
 \end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-\section{Free play}
-
-
 {
     \paper{Parten, {\bf Social participation among preschool children} Journal
     of Abnormal and Social Psychology 1932}
-\begin{frame}[label=parten]{Theoretical framework: stages of play}
+\begin{frame}[label=parten]{Stages of play}
 
     In developmental psychology, Parten's {\bf stages of play}:
 
@@ -395,76 +250,257 @@ Plymouth University}}
 \end{frame}
 }
 
-\imageframe[caption=Free-play sandbox]{freeplay/setup}
+\videoframe[0.56]{figs/freeplay/maud-zoe-pilot-edit.mkv?autostart&noaudio&start=28}
+
+\begin{frame}[plain]
+    \begin{center}
+    \Large\bf
+        Can we make it work for HRI?
+    \end{center}
+\end{frame}
+
+\imageframe[color=black, scale=0.9]{freeplay/sandbox}
+
+\imageframe{freeplay/freeplay-overview2}
+
 %\imageframe[color=black]{freeplay/freeplay-sandbox-screenshot}
 \imageframe[color=black]{freeplay/analysis}
 
-\note{
 
-    Many dimensions:
-
-    \begin{itemize}
-        \item communication
-            \begin{itemize}
-                \item gaze \& visual attention
-                \item social gestures
-            \end{itemize}
-    \end{itemize}
-
-
-    Large dataset acquisition: we target about 50 interactions, around 15 min
-    each -- two age groups: 4 years old / 7 years old
-}
-
-%\videoframe[0.56]{figs/freeplay/zoo-builder-proto-smaller.mkv}
-
-\begin{frame}{A framework for socio-cognitive investigation}
-
-    \begin{center}
-
-    \Large
-
+\begin{frame}{'Sandboxed free play' experimental paradigm}
 
     \begin{itemize}
-        \item {\bf Task-independent social dynamics}\\{\large interaction flow, adaptation,
-            social patterns...}
-        \item {\bf Situation awareness}\\{\large what happens? who does what?
-            why?\\ $\rightarrow$ mind modelling}
+        \item \textbf{Structured methodology} (sandtray) yet \textbf{loosely structured
+            task} (free play)
+        \item<2-> physical playground $\rightarrow$ {\bf replaced by large
+            touchscreen}: escape perception and manipulation in
+            dense \& cluttered scene (but \emph{only} that)
+        \item<3-> importantly, \textbf{perception and interaction with the
+            partner is unimpaired}
     \end{itemize}
-
-    \end{center}
-
 \end{frame}
 
-\begin{frame}{Key outcomes for HRI}
 
-    Real-time identification (and generation?) of...
+\imageframe[scale=0.9]{freeplay/setup_top}
+
+\imageframe[scale=0.95]{freeplay/freeplay-sandbox-architecture}
+\imageframe[scale=0.95]{freeplay/freeplay-sandbox-architecture-record}
+\imageframe[scale=0.95]{freeplay/freeplay-sandbox-architecture-policy}
+\imageframe[scale=0.95]{freeplay/freeplay-sandbox-architecture-robot}
+\imageframe[scale=0.95]{freeplay/freeplay-sandbox-architecture-practical}
+\imageframe[scale=0.95]{freeplay/freeplay-sandbox-architecture}
+
+
+\begin{frame}[plain]
+    \Large
+    \begin{center}
+        Fully open-source!
+
+        \href{https://github.com/freeplay-sandbox/}{\bf github.com/freeplay-sandbox}
+
+    \end{center}
+\end{frame}
+
+
+
+\begin{frame}{Check our 'shopping list'}
+
+    We were looking for a task that exhibits...
 
     \begin{itemize}
-        \item the \textbf{interaction flow} (situation awareness)
-        \item the \textbf{task engagement}
-        \item the \textbf{social behaviours}
+        \item open, underspecified situations
+            \item complex social dynamics
+            \item natural interactions
+            \item rich semantics
+            \item interplay of many socio-cognitive functions
+    \end{itemize}
+
+    \pause
+        And as well:
+    \begin{itemize}
+        \item reproducible/replicable experimental procedure
+        \item clear quantitative metrics
+        \item practical
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}{What should we observe?}
+
+    \begin{itemize}
+        \item<+-> the \textbf{task engagement}
             \begin{itemize}
-                \item Pro-social, hostile, assertive (‘bossy’), passive...
+                \item are the participants 'on task' or not
             \end{itemize}
-        \item the \textbf{social dynamics}
+        \item<+-> the \textbf{interaction flow} \& \textbf{situation awareness}
             \begin{itemize}
-                \item entrainment (coupling), mimicry, turn-taking, joint
+                \item what is happening \emph{now}? what is the next expected
+                    action?
+            \end{itemize}
+        \item<+-> the \textbf{social attitude}
+            \begin{itemize}
+                \item pro-social, hostile, assertive (‘bossy’), passive...
+            \end{itemize}
+        \item<+-> the \textbf{social dynamics}
+            \begin{itemize}
+                \item entrainment (coupling), mimicry, implicit turn-taking, joint
                     attention
             \end{itemize}
     \end{itemize}
 
     \pause
+    $\rightarrow$ {\bf the free play sandbox is paradigm for socio-cognitive investigation}
+\end{frame}
+
+
+\section{The PInSoRo dataset}
+
+\imageframe{freeplay/freeplay-overview2}
+
+\begin{frame}{The PInSoRo dataset}
     \begin{itemize}
-
-        \item {\bf emergence of \hyperlink{parten}{Parten's stages of
-            play}?}
-
+        \item 120 children, 4 to 8 years old
+        \item 75 interactions
+            \begin{itemize}
+                \item 90 children playing with another child, 
+                \item 30 playing with a robot
+            \end{itemize}
+        \item About 45h+ of recordings; 2M+ frames; $\approx$ 2TB
     \end{itemize}
 
 \end{frame}
 
-\section{Deep learning and robotics}
+\begin{frame}{Two baselines}
+
+    \begin{center}
+        \includegraphics<1>[width=\linewidth]{pinsoro-baselines}
+        \includegraphics<2>[width=\linewidth]{pinsoro-baselines2}
+    \end{center}
+\end{frame}
+
+\imageframe[color=black]{freeplay/3d-point-cloud-facial-features}
+\imageframe[color=black]{freeplay/rviz-faces}
+
+\begin{frame}{What did we record?}
+
+\small
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Domain} & \textbf{Type}                              & \textbf{Details}                          \\ \midrule
+child $\times$ 2        & audio                                      & 16kHz, mono, semi-directional             \\
+                & face (RGB)                                 & qHD (960x540), 30Hz                       \\
+                & face (depth)                               & VGA (640x480), 30Hz                       \\
+                & facial features                            & 70 2D points, 30Hz                        \\
+                & skeleton                                   & 15 2D points, 30Hz                        \\
+                & hands                                      & 20 x 2 2D points, 30Hz                    \\ \midrule
+environment     & RGB                                        & qHD (960x540), 29.7Hz                     \\ \midrule
+touchscreen     & background drawing (RGB)                   & 4Hz                                       \\
+                & touches                                    & 6 points multi-touch, 10Hz                \\
+                & items position and orientation             & (x,y,theta), 10Hz                         \\ \midrule
+annotations     & \multicolumn{2}{l}{timestamped annotations of social behaviours} \\\midrule
+other           & \multicolumn{2}{l}{static transforms between touchscreen and facial cameras}           \\
+                & \multicolumn{2}{l}{cameras calibration informations}                                   \\ \bottomrule
+\end{tabular}
+
+\end{frame}
+
+\videoframe[0.56]{figs/bestof.mp4?autostart}
+
+\begin{frame}{Main dataset stats}
+    \begin{itemize}
+        \item 120 children, 4 to 8 years old; 45h+ of recordings;
+     \item average duration of freeplay interactions: 24min in child-child
+         condition; 19min in child-robot condition
+     \item facial features extracted in ~98\% of frames
+    \end{itemize}
+
+    \begin{center}
+        \includegraphics[width=0.5\linewidth]{freeplay/durations}
+    \end{center}
+\end{frame}
+
+\imageframe[scale=0.95]{freeplay/coding-scheme}
+
+\note{
+Coding scheme for social attitude derives from the Social Communication Coding System (SCCS) 
+}
+
+\imageframe[scale=0.95, color=black]{freeplay/annotator}
+
+\videoframe[0.56]{figs/raw_annotations.mp4?autostart}
+
+\begin{frame}[plain]
+    \Large
+    \begin{center}
+        Anonymised version (only 5.7GB...) available on-line. Grab it now!
+
+        \LARGE \href{https://freeplay-sandbox.github.io}{\bf freeplay-sandbox.github.io}
+
+        \vspace{3cm}
+            \large Open data! Hosted on EU's  \includegraphics[width=0.3\linewidth]{zenodo}
+    \end{center}
+\end{frame}
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[For HRI?]{What does this dataset mean to HRI?}
+
+\imageframe[caption=Mutual gaze? Joint attention?]{freeplay/setup-child-child}
+
+\begin{frame}{Training for gaze estimation}
+
+    \Large End-to-end training to map 2D facial features to gaze location
+
+    \begin{center}
+        \includegraphics[width=0.9\linewidth]{nn-gaze-estimation}
+    \end{center}
+
+    \begin{itemize}
+        \item \textbf{Input}: 32 2D points (eyes, eyebrows, nose, ears,
+            shoulders)
+        \item \textbf{Output}: 2D gaze location on the interactive table
+    \end{itemize}
+\end{frame}
+
+\imageframe[color=black]{visual_tracking}
+
+\begin{frame}{Training for gaze estimation}
+
+    \Large End-to-end training to map 2D facial features to gaze location
+
+    \begin{center}
+        \includegraphics[width=0.9\linewidth]{nn-gaze-estimation}
+    \end{center}
+
+    \begin{itemize}
+        \item \textbf{Pros}: no calibration; no eye tracking device; 2D images
+        \item \textbf{Cons}: require a initial ground truth; accurate?
+    \end{itemize}
+\end{frame}
+
+\imageframe[color=black]{visual_tracking_size}
+\videoframe[0.56]{figs/gaze_tracking_distribution.mkv}
+\videoframe[0.40]{figs/gaze_tracking.ogv?autostart}
+
+
+\begin{frame}[plain]
+    \begin{center}
+    \Large\bf
+        What about social HRI?
+    \end{center}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section[DNNs]{Deep learning and robotics}
 
 {
     \paper{Mnih et al. {\bf Human-level control through deep reinforcement learning} -- Nature 2015}
@@ -481,102 +517,202 @@ Plymouth University}}
             \item<2-> \sout{1.000.000} {\bf 500} games to play a good human-level
         \end{itemize}
 
-    \uncover<3> {
-        \begin{center}
-            {\bf Could we also learn social dynamics?}
-        \end{center}
-    }
 \end{frame}
 }
 
-\videoframe[0.56]{videos/ogata-deeplearning-towel-folding.mp4?autostart&noaudio&start=19}
-
-
-\section{Deep learning of social interactions?}
+\videoframe[0.56]{figs/ogata-deeplearning-towel-folding.mp4?autostart&noaudio&start=19}
 
 {
-    \paper{Graziano {\bf Consciousness and the Social Brain} -- 2013] \newline
-    [Jaeger {\bf Controlling recurrent neural networks by conceptors} -- 2014}
+    \paper{Yang et al. {\bf Repeatable Folding Task by Humanoid Robot Worker using
+    Deep Learning} -- Robotics and Automation Letters 2017}
+\begin{frame}{Learning sequences}
 
-\begin{frame}{My current vision}
+    Ogata's demonstration (published this year in IEEE RAL):
+
+    \begin{itemize}
+        \item 2 arms, 12 DoF
+        \item Inputs: on-board 112$\times$112px camera, joint state
+        \item<2-> training from 40 teleoperated demonstrations of $\approx$70s
+
+    \end{itemize}
+
+    \onslide<3>{
+
+    Not only learning poses, but \textbf{sequences as well}.
+    
+    \emph{Time-Delay Neural Network} (TDNN) to learn to
+    predict the next step (no RNNs!).
+}
+\end{frame}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[DNNs for Social Robotics]{Deep learning of social interactions?}
+
+\videoframe[0.56]{figs/annotations.mp4?autostart}
+
+
+\begin{frame}{Aim}
+
+    {\bf Real-time identification} by the robot of...
+
+    \begin{itemize}
+        \item<+-> the \textbf{task engagement}
+            \begin{itemize}
+                \item is my partner 'on task' or not?
+            \end{itemize}
+        \item<+-> the \textbf{interaction flow} \& \textbf{situation awareness}
+            \begin{itemize}
+                \item what is happening right now? should I do something?
+            \end{itemize}
+        \item<+-> the \textbf{social attitude}
+            \begin{itemize}
+                \item Pro-social, hostile, assertive (‘bossy’), passive...
+            \end{itemize}
+        \item<+-> the \textbf{social dynamics}
+            \begin{itemize}
+                \item entrainment (coupling), mimicry, turn-taking, joint
+                    attention
+            \end{itemize}
+    \end{itemize}
+
+    \pause
+
+    Social behaviours; Social dynamics: \textbf{generation as well!}
+\end{frame}
+
+\begin{frame}{Some building blocks exists}
+
+    \begin{itemize}
+        \item \textbf{Multi-modal fusion}
+
+            \begin{itemize}
+                \item \eg Noda et al. {\bf Multimodal integration learning of robot behavior
+    using DNN}, Robotics and Autonomous Systems 2014
+            \end{itemize}
+
+        \item \textbf{Behavioural sequences recognition}
+            \begin{itemize}
+                \item How et al. {\bf Behavior recognition for humanoid
+                    robots using long short-term memory},
+                    IJARS 2016 \emph{$\rightarrow$ LSTM to recognise Nao
+                    behaviours}
+                \item Shiarlis et al. {\bf Acquiring Social Interaction
+                    Behaviours for Telepresence Robots via Deep Learning from
+                    Demonstration}, IROS 2017
+            \end{itemize}
+    \end{itemize}
+
+    \pause
+    {\bf DBSoC: Deep Behavioural Social Cloning} -- LfD + CNNs + LSTM
+
+    Two tasks for a telepresence robot:
+    \begin{enumerate}
+        \item position itself in a (dynamic) group of persons
+        \item follow 2 persons
+    \end{enumerate}
+\end{frame}
+
+
+{
+    \fullbackground[color=black]{annotations-skel}
+\begin{frame}[plain]
+
+    \vspace{7cm}
+
+\setbeamercolor{hriSec1Demo}{fg=white!70!black}
+\begin{beamercolorbox}[wd=\linewidth,ht=6ex,dp=0.7ex]{hriSec1Demo}
+
+    The problem is framed, data is available, next step: {\bf mining it!}
+\end{beamercolorbox}
+\end{frame}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[Conclusion]{Back to the bigger picture}
+
+\begin{frame}{One question}
+
+    \Large
+    \centering
+
+    {\bf Can sociality emerge from interaction?}
+
+    \pause
+    \normalsize
+    \vspace{2em}
+
+    Both ``emerge'' as \emph{arise from} and ``emerge`` as in \emph{emergent paradigm of
+    cognition}
+
+    \pause
+
+    ``Social cognition arising in interaction''? $\rightarrow$ a situated \&
+    embodied view on cognition
+
+\end{frame}
+
+\begin{frame}{Deep learning of social interactions}
+
+    \large
 
     \begin{center}
 
-    \Large
-    \bf (Deep) learning of socio-cognitive human-robot interactions
+    Working hypothesis: \textbf{Sociality emerges from interaction}
 
-    \end{center}
 
     \pause
+
+    $\Rightarrow$ {\bf learning how to interact might lead to an emergent
+    socio-cognitive behaviour}
+   
+    \pause
+
+    $\Rightarrow$ {\bf (Deep) learning of socio-cognitive human-robot interactions}
+
+
 
     \normalsize
 
-    Working hypothesis: \textbf{Sociality emerges from interaction}
+        (Supervised (or unsupervised!) recurrent neural networks to model others'
+            minds $\rightarrow$ a connectionist theory of mind!)
 
-%   $\Rightarrow$ situated \& embodied view on social cognition
-
-    \pause
-
-    \begin{itemize}
-        \item Instrumental role of \textbf{\hyperlink{attentionschemata}{attention}}
-        \item Unsupervised \textbf{recurrent neural networks} to model others'
-            minds $\rightarrow$ a \textbf{connectionist theory of mind}
-
-    \end{itemize}
 
     \pause
+    \vspace{2em}
     {\bf ...towards a principled model of social cognition?}
+
+    \end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+{
+    \paper{cited in Lewandowsky and Farrell, {\bf Computational Modeling In
+    Cognition}, 2011}
+\begin{frame}{A model?}
+
+    Models attempt to \emph{explain}: 
+    \begin{quote}
+        ``identifying the causes for an event or phenomenon of interest''
+    \end{quote}
+    \begin{quote}
+        ``unifying disparate phenomena''
+    \end{quote}
 
 \end{frame}
 }
 
-
-
-\section{PInSoRo}
-
-
-\begin{frame}{PinSoRo}
- How to push back the boundaries of social
-            robotics?
-
-    \begin{itemize}
-        \item Open, underspecified situations
-            \item complex social dynamics
-            \item Natural interactions
-            \item rich semantics
-            \item interplay of many socio-cognitive functions
-    \end{itemize}
-        yet,
-    \begin{itemize}
-        \item Reproducible/replicable situations
-        \item Clear quantitative metrics
-    \end{itemize}
-\end{frame}
-
-\imageframe{freeplay/freeplay-overview}
-\imageframe{freeplay/freeplay-overview2}
-
-\imageframe[color=black]{freeplay/3d-point-cloud-facial-features}
-\imageframe[color=black]{freeplay/rviz-faces}
-
-
-\begin{frame}{Main dataset stats}
-    \begin{itemize}
-        \item 120 children, 4 to 8 years old
-     \item 90 children playing with another child, 30 playing with a robot
-     \item About 45h+ of child recordings,
-     \item average duration of freeplay interactions: 24min in child-child condition,
-            19min in child-robot condition
-     \item Facial features extracted seen in ~98\% of frames
-    \end{itemize}
-\end{frame}
-
-\imageframe{freeplay/durations}
-
-\imageframe[scale=0.95]{freeplay/coding-scheme}
-\imageframe[scale=0.95, color=black]{freeplay/annotator}
-\imageframe[scale=0.95]{freeplay/freeplay-sandbox-architecture}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \imageframe[color=white]{islands1}
 
@@ -592,22 +728,195 @@ Plymouth University}}
 
 \imageframe[color=white]{islands4}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+    \paper{cited in Lewandowsky and Farrell, {\bf Computational Modeling In
+    Cognition}, 2011}
+\begin{frame}{A model?}
+
+    Models attempt to \emph{explain}: 
+    \begin{quote}
+        ``identifying the causes for an event or phenomenon of interest''
+    \end{quote}
+    \begin{quote}
+        ``unifying disparate phenomena''
+    \end{quote}
+
+        A model's value is gained from
+    \begin{quote}
+        ``predicting facts that, absent the theory, would be antecedently
+        improbable''
+    \end{quote}
+
+
+\end{frame}
+}
+
+
+\begin{frame}{Towards developmental socio-robotics?}
+
+    \Large
+    {\bf Emergence of \hyperlink{parten}{Parten's stages of
+            play}?}
+
+            \small
+
+    \begin{enumerate}
+        \item \includegraphics[height=0.7cm]{figs/stagesofplay/solitary} {Solitary (independent) play}
+        \item \includegraphics[height=0.7cm]{figs/stagesofplay/onlooker} {Onlooker play}
+        \item \includegraphics[height=0.7cm]{figs/stagesofplay/parallel}{Parallel play}
+        \item \includegraphics[height=0.7cm]{figs/stagesofplay/associative}{Associative play}
+        \item \includegraphics[height=0.7cm]{figs/stagesofplay/cooperative}{Cooperative play}
+    \end{enumerate}
+
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\section{Sketching a model}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\begin{frame}{A model of artificial social cognition}
+%
+%    I postulate {\bf two stages}:
+%
+%    \begin{enumerate}
+%        \item building models of others' minds
+%        \item exploiting these models to socially act:
+%            \begin{itemize}
+%                \item prediction, reading others' intentions
+%                \item adapting own behaviour, alignment
+%                \item establish join goals
+%                \item ultimately, performing joint actions
+%            \end{itemize}
+%    \end{enumerate}
+%
+%    \vspace{2em}
+%    $\rightarrow$ Social analogs of \emph{perception} \& \emph{action}
+%
+%\end{frame}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%{
+%    \paper{see discussion in Vernon, {\bf Artificial Cognitive Systems: A Primer} 2014}
+%\begin{frame}{Cognitivist vs Emergent paradigms}
+%
+%    ``building'', ``exploiting'', ``reading'', ``establishing''... my terminolgy
+%    denotes a cognitivist approach (`I, the designer of the system, explicitly implement
+%    these capabilities')
+%
+%    \pause
+%    
+%    Possible `emergent paradigm' rephrasing:
+%
+%    \begin{enumerate}
+%        \item developing internal states \emph{connoting} others' minds
+%        \item perturbing (influencing) actions synthesis with these states
+%    \end{enumerate}
+%
+%    \pause
+%
+%    {\bf Hybrid approaches} are possible -- mapping to ``raw phenomenal experience'' vs
+%    ``access counciousness''.
+%\end{frame}
+%}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%{
+%    \paper{Graziano {\bf Consciousness and the Social Brain} -- 2013}
+%\begin{frame}[label=attentionschemata]{Modeling others' mind?}
+%    \large
+%    In cognitive neurosciences: Graziano's \emph{Attention Schemata Theory}
+%
+%    \begin{columns}
+%
+%        \begin{column}{0.5\linewidth}
+%
+%            \begin{center}
+%                \includegraphics<1>[width=1.3\columnwidth]{playing_together}
+%                \includegraphics<2>[width=1.3\columnwidth]{playing_together_gaze}
+%                \includegraphics<3>[width=1.3\columnwidth]{playing_together_awareness}
+%                \includegraphics<4>[width=1.3\columnwidth]{playing_together_mutual_awareness}
+%            \end{center}
+%
+%        \end{column}
+%
+%        \begin{column}{0.5\linewidth}
+%
+%            \only<2>{
+%                \vspace*{1.5cm}
+%                Attention is more about {\bf representation} than visual perspective
+%
+%                \vspace{0.7cm}
+%                ``Awareness is a construct that represents the attentional state
+%                of a brain''
+%
+%            }
+%            \only<3>{
+%                \vspace*{1.5cm}
+%                Graziano's postulate that modelling other's state of awareness
+%                is {\bf mediated by one's own attentional system}, through joint
+%                attention
+%            }
+%            \only<4>{
+%                \vspace*{1.5cm}
+%                    It follows that {\bf joint attention is the process that gives
+%                    rise to social awareness}
+%            }
+%
+%        \end{column}
+%
+%    \end{columns}
+%
+%\end{frame}
+%}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\begin{frame}{Sketching a path forward: mentalizing}
+%
+%    {\bf Hypothesis 1}: Graziano is right: mental representations are snapshots of
+%    \emph{awareness}, \emph{awareness} being itself a label for the
+%    \emph{memory-mediated process of attention}.
+%
+%    \pause
+%
+%    {\bf Hypothesis 2}: this can be extended to social cognition. \textbf{Modeling one
+%    other mental representations equates to taking snapshots of their current
+%    state of awareness}.
+%
+%    As we do not have direct access to others' process of attention, it has to
+%    be mediated. Following Graziano, we hypotesise that \textbf{modelling other's
+%    state of awareness is mediated by one's own attentional system, through
+%    joint attention mechanisms}.
+%
+%
+%\end{frame}
+%
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 {
-    \fullbackground[color=black]{eeg}
+    \fullbackground[color=black]{annotations-skel}
 \begin{frame}[plain]
 
     \begin{columns}
-        \begin{column}{0.6\linewidth}
+        \begin{column}{0.5\linewidth}
         \end{column}
-        \begin{column}{0.4\linewidth}
+        \begin{column}{0.5\linewidth}
 
+    \vspace{7cm}
 \setbeamercolor{hriSec1Demo}{fg=white!70!black}
 \begin{beamercolorbox}[wd=\linewidth,ht=6ex,dp=0.7ex]{hriSec1Demo}
     \textbf{Thank you!}
-    \vspace{3em}
+
+    \vspace{2em}
+    \href{https://freeplay-sandbox.github.io}{freeplay-sandbox.github.io}
 \end{beamercolorbox}
         \end{column}
     \end{columns}

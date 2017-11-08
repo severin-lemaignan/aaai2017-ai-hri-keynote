@@ -215,10 +215,7 @@
 %---------------------------------------------------------------------
 
 % Make Sectionhead uppercase
-\newcommand{\insertsectionHEAD}{%
-    \expandafter\insertsectionHEADaux\insertsectionhead}
-    \newcommand{\insertsectionHEADaux}[3]{\MakeUppercase{#3}
-}
+\newcommand{\insertsectionHEAD}{\MakeUppercase{\secname}}
 
 \if@doSectionPage\@empty
 \else
@@ -315,14 +312,30 @@
 \renewcommand{\theFancyVerbLine}{
   \sffamily\textcolor[rgb]{0.5,0.5,0.5}{\scriptsize\arabic{FancyVerbLine}}}
 
-\newminted{cpp}{frame=lines,
+\newminted{cmake}{frame=none,
+                 linenos=false,
+                 fontsize=\footnotesize,
+                 xleftmargin=1.8em}
+
+\newmintinline[cmake]{cmake}{fontsize=\small}
+
+
+\newminted{asm}{frame=none,
                  linenos=false,
                  fontsize=\small,
                  xleftmargin=1.8em}
 
+\newmintinline[asm]{asm}{fontsize=\small}
+
+
+\newminted{cpp}{frame=none,
+                 linenos=false,
+                 fontsize=\scriptsize,
+                 xleftmargin=1em}
+
 \newmintinline[cpp]{cpp}{fontsize=\small}
 
-\newminted{python}{frame=lines,
+\newminted{python}{frame=none,
                  linenos=false,
                  fontsize=\scriptsize,
                  xleftmargin=1.8em}
@@ -348,6 +361,13 @@
 % Images
 %---------------------------------------------------------------------
 
+\tikzset{
+  double arrow/.style args={#1 colored by #2 and #3}{
+    -stealth,line width=#1,#2, % first arrow
+    postaction={draw,-stealth,#3,line width=(#1)/3,
+                shorten <=(#1)/3,shorten >=2*(#1)/3}, % second arrow
+  }
+}
 
 \newbox\mytempbox
 \newdimen\mytempdimen

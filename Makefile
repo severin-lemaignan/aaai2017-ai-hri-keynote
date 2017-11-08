@@ -21,6 +21,9 @@ all: paper
 %.svg: %.dot
 	twopi -Tsvg -o$(@) $(<)
 
+thumbs:
+	./make_video_preview.py $(TARGET:.pdf=.tex)
+
 %.thumbs: %.tex
 	./make_video_preview.py $<
 
