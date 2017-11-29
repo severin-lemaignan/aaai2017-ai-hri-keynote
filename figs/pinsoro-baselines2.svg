@@ -15,7 +15,7 @@
    viewBox="0 0 1274.4153 762.40564"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="pinsoro-baselines2.svg">
   <defs
      id="defs4" />
@@ -27,8 +27,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="621.18461"
-     inkscape:cy="397.24494"
+     inkscape:cx="637.64156"
+     inkscape:cy="361.53066"
      inkscape:document-units="px"
      inkscape:current-layer="layer1-3"
      showgrid="false"
@@ -38,9 +38,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="2560"
-     inkscape:window-height="1304"
+     inkscape:window-height="1011"
      inkscape:window-x="0"
-     inkscape:window-y="64"
+     inkscape:window-y="873"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -50,7 +50,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63,7 +63,7 @@
        transform="matrix(0.54551592,0,0,0.54551592,-17.710695,229.99826)"
        id="g4158">
       <image
-         sodipodi:absref="/home/skadge/talks/aaai2017-ai-hri-keynote/figs/freeplay/setup-child-child.png"
+         sodipodi:absref="/home/slemaignan/talks/aaai2017-ai-hri-keynote/figs/freeplay/setup-child-child.png"
          xlink:href="freeplay/setup-child-child.png"
          y="-551.30823"
          x="1028.5208"
@@ -72,7 +72,7 @@
          height="634.64435"
          width="846.19232" />
       <image
-         sodipodi:absref="/home/skadge/talks/aaai2017-ai-hri-keynote/figs/freeplay/setup-child-robot.png"
+         sodipodi:absref="/home/slemaignan/talks/aaai2017-ai-hri-keynote/figs/freeplay/setup-child-robot.png"
          xlink:href="freeplay/setup-child-robot.png"
          y="-548.09949"
          x="-461.45227"
@@ -100,7 +100,7 @@
              style="opacity:1;fill:#ff7f2a;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
           <path
              inkscape:transform-center-x="-23.739928"
-             d="m 999.0462,559.40778 -71.21979,41.11876 -71.21978,41.11876 0,-82.23753 0,-82.23751 71.21979,41.11876 z"
+             d="m 999.0462,559.40778 -71.21979,41.11876 -71.21978,41.11876 v -82.23753 -82.23751 l 71.21979,41.11876 z"
              inkscape:randomized="0"
              inkscape:rounded="0"
              inkscape:flatsided="false"
@@ -117,42 +117,39 @@
         </g>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:54.08623505px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="-18.074114"
            y="680.83923"
-           id="text4142-9"
-           sodipodi:linespacing="125%"><tspan
+           id="text4142-9"><tspan
              sodipodi:role="line"
              id="tspan4144-1"
              x="-18.074114"
              y="680.83923"
-             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:'FlamaLight Medium'">Complexity of social interactions</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:54.08623505px;line-height:1.25;font-family:FlamaLight;-inkscape-font-specification:'FlamaLight Medium'">richness of social interactions</tspan></text>
         <text
-           sodipodi:linespacing="125%"
            id="text4146-2"
            y="325.31088"
            x="-385.16083"
-           style="font-style:normal;font-weight:normal;font-size:33.38638687px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"
-           transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:'FlamaLight Medium'"
+           transform="rotate(-30)"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:33.38638687px;line-height:1.25;font-family:FlamaLight;-inkscape-font-specification:'FlamaLight Medium'"
              y="325.31088"
              x="-385.16083"
              id="tspan4148-7"
              sodipodi:role="line">child - non-social robot</tspan></text>
         <text
-           transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"
+           transform="rotate(-30)"
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:33.38638687px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="436.93933"
            y="799.95062"
-           id="text4150-0"
-           sodipodi:linespacing="125%"><tspan
+           id="text4150-0"><tspan
              sodipodi:role="line"
              id="tspan4152-9"
              x="436.93933"
              y="799.95062"
-             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:'FlamaLight Medium'">child - child</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:33.38638687px;line-height:1.25;font-family:FlamaLight;-inkscape-font-specification:'FlamaLight Medium'">child - child</tspan></text>
         <g
            transform="matrix(0.54551592,0,0,0.54551592,-17.710695,229.99826)"
            id="g4158-3">
@@ -186,23 +183,27 @@
              style="opacity:1;fill:#a7ac93;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
         </g>
         <text
-           sodipodi:linespacing="125%"
            id="text4168"
-           y="582.39099"
-           x="144.96777"
-           style="font-style:normal;font-weight:normal;font-size:33.38638687px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           y="547.07465"
+           x="141.38733"
+           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"
-           transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:FlamaMedium;-inkscape-font-specification:'FlamaMedium Medium'"
-             y="582.39099"
-             x="144.96777"
+           transform="rotate(-30)"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:33.38638687px;line-height:1.25;font-family:FlamaMedium;-inkscape-font-specification:'FlamaMedium Medium'"
+             y="547.07465"
+             x="141.38733"
              id="tspan4170"
-             sodipodi:role="line">your next cool</tspan><tspan
-             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:FlamaMedium;-inkscape-font-specification:'FlamaMedium Medium'"
-             y="624.12396"
-             x="144.96777"
+             sodipodi:role="line">your next</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:33.38638687px;line-height:1.25;font-family:FlamaMedium;-inkscape-font-specification:'FlamaMedium Medium'"
+             y="588.80762"
+             x="141.38733"
              sodipodi:role="line"
-             id="tspan4172">social policy</tspan></text>
+             id="tspan4769">socio-cognitive</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:33.38638687px;line-height:1.25;font-family:FlamaMedium;-inkscape-font-specification:'FlamaMedium Medium'"
+             y="630.54059"
+             x="141.38733"
+             sodipodi:role="line"
+             id="tspan4172">model</tspan></text>
       </g>
     </g>
   </g>
