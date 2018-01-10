@@ -10,12 +10,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="229.96701mm"
-   height="113.59443mm"
-   viewBox="0 0 229.96701 113.59443"
+   width="348.32605mm"
+   height="120.86069mm"
+   viewBox="0 0 348.32605 120.86069"
    version="1.1"
    id="svg5513"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="cnn-features.svg">
   <defs
      id="defs5507">
@@ -23,7 +23,7 @@
        clipPathUnits="userSpaceOnUse"
        id="clipPath348">
       <path
-         d="M -0.6545447,8.181841 H 792.98186 V 603.49094 H -0.6545447 Z"
+         d="m -0.6545447,8.181841 793.6364047,0 0,595.309099 -793.6364047,0 z"
          id="path346"
          inkscape:connector-curvature="0" />
     </clipPath>
@@ -31,7 +31,7 @@
        clipPathUnits="userSpaceOnUse"
        id="clipPath474">
       <path
-         d="M 66.47064,344.2409 H 196.9706 V 269.8658 H 66.47064 Z"
+         d="m 66.47064,344.2409 130.49996,0 0,-74.3751 -130.49996,0 z"
          id="path472"
          inkscape:connector-curvature="0" />
     </clipPath>
@@ -39,7 +39,7 @@
        clipPathUnits="userSpaceOnUse"
        id="clipPath480">
       <path
-         d="m 66.47065,269.8659 h 130.5 v 74.37503 h -130.5 z"
+         d="m 66.47065,269.8659 130.5,0 0,74.37503 -130.5,0 z"
          id="path478"
          inkscape:connector-curvature="0" />
     </clipPath>
@@ -47,7 +47,7 @@
        clipPathUnits="userSpaceOnUse"
        id="clipPath602">
       <path
-         d="M -0.6545447,8.181841 H 792.98186 V 603.49094 H -0.6545447 Z"
+         d="m -0.6545447,8.181841 793.6364047,0 0,595.309099 -793.6364047,0 z"
          id="path600"
          inkscape:connector-curvature="0" />
     </clipPath>
@@ -55,7 +55,7 @@
        clipPathUnits="userSpaceOnUse"
        id="clipPath584">
       <path
-         d="m 511.3456,243.8659 h 206.875 v -221.5 h -206.875 z"
+         d="m 511.3456,243.8659 206.875,0 0,-221.5 -206.875,0 z"
          id="path582"
          inkscape:connector-curvature="0" />
     </clipPath>
@@ -63,7 +63,7 @@
        clipPathUnits="userSpaceOnUse"
        id="clipPath590">
       <path
-         d="m 511.3456,22.36589 h 206.875 v 221.5 h -206.875 z"
+         d="m 511.3456,22.36589 206.875,0 0,221.5 -206.875,0 z"
          id="path588"
          inkscape:connector-curvature="0" />
     </clipPath>
@@ -71,7 +71,7 @@
        clipPathUnits="userSpaceOnUse"
        id="clipPath566">
       <path
-         d="m 288.4706,243.2409 h 211.875 V 22.49093 h -211.875 z"
+         d="m 288.4706,243.2409 211.875,0 0,-220.74997 -211.875,0 z"
          id="path564"
          inkscape:connector-curvature="0" />
     </clipPath>
@@ -79,7 +79,7 @@
        clipPathUnits="userSpaceOnUse"
        id="clipPath572">
       <path
-         d="m 288.4706,22.49091 h 211.875 v 220.75 h -211.875 z"
+         d="m 288.4706,22.49091 211.875,0 0,220.75 -211.875,0 z"
          id="path570"
          inkscape:connector-curvature="0" />
     </clipPath>
@@ -87,7 +87,7 @@
        clipPathUnits="userSpaceOnUse"
        id="clipPath548">
       <path
-         d="m 66.3456,243.2409 h 210.125 V 22.24093 H 66.3456 Z"
+         d="m 66.3456,243.2409 210.125,0 0,-220.99997 -210.125,0 z"
          id="path546"
          inkscape:connector-curvature="0" />
     </clipPath>
@@ -95,7 +95,7 @@
        clipPathUnits="userSpaceOnUse"
        id="clipPath554">
       <path
-         d="m 66.34561,22.24092 h 210.125 v 221 h -210.125 z"
+         d="m 66.34561,22.24092 210.125,0 0,221 -210.125,0 z"
          id="path552"
          inkscape:connector-curvature="0" />
     </clipPath>
@@ -103,7 +103,7 @@
        clipPathUnits="userSpaceOnUse"
        id="clipPath492">
       <path
-         d="M -0.6545447,8.181841 H 792.98186 V 603.49094 H -0.6545447 Z"
+         d="m -0.6545447,8.181841 793.6364047,0 0,595.309099 -793.6364047,0 z"
          id="path490"
          inkscape:connector-curvature="0" />
     </clipPath>
@@ -115,9 +115,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="-66.90384"
-     inkscape:cy="247.75148"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="1469.4826"
+     inkscape:cy="484.0969"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -126,9 +126,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="2560"
-     inkscape:window-height="1011"
+     inkscape:window-height="1304"
      inkscape:window-x="0"
-     inkscape:window-y="873"
+     inkscape:window-y="64"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5510">
@@ -146,97 +146,80 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(11.065961,-92.933093)">
-    <path
-       d="m 164.26459,96.582544 c 0,-0.01849 0.015,-0.03348 0.0335,-0.03348 h 39.22366 c 0.0185,0 0.0335,0.01499 0.0335,0.03348 v 21.805266 c 0,0.0185 -0.015,0.0335 -0.0335,0.0335 h -39.22366 c -0.0185,0 -0.0335,-0.015 -0.0335,-0.0335 z"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.35277778"
-       id="path414"
-       inkscape:connector-curvature="0" />
-    <text
-       id="text424"
-       style="font-variant:normal;font-weight:normal;font-size:7.05555534px;font-family:TiresiasPCfont;-inkscape-font-specification:TiresiasPCfont;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
-       x="168.53958"
-       y="105.0316">
-      <tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:FlamaLight;stroke-width:0.35277778"
-         id="tspan422"
-         sodipodi:role="line"
-         y="105.0316"
-         x="168.53958 172.31572 174.97707 178.73204 180.70195 184.79558 188.55055 192.6089 194.74109 198.62306">Trainable</tspan>
-    </text>
-    <text
-       id="text430"
-       style="font-variant:normal;font-weight:normal;font-size:7.05555534px;font-family:TiresiasPCfont;-inkscape-font-specification:TiresiasPCfont;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
-       x="169.81427"
-       y="115.61493">
-      <tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:FlamaLight;stroke-width:0.35277778"
-         id="tspan428"
-         sodipodi:role="line"
-         y="115.61493"
-         x="169.81427 173.64543 175.78116 179.53612 182.98488 186.43362 188.40425 190.90544 192.87605 196.75873 197.35492">Classifier</tspan>
-    </text>
-    <path
-       inkscape:connector-curvature="0"
-       id="path434"
-       style="fill:none;stroke:#0433ff;stroke-width:1.01999974;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       d="m 203.81976,107.35292 h 10.13659" />
-    <path
-       d="m 211.91636,105.82289 3.06,1.53003 -3.06,1.53 z"
-       style="fill:#0433ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.35277778"
-       id="path436"
-       inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path440"
-       style="fill:none;stroke:#0433ff;stroke-width:1.01999974;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       d="M 25.79931,107.35292 H 40.830695" />
-    <path
-       d="m 38.790707,105.82289 3.059994,1.53003 -3.059994,1.53 z"
-       style="fill:#0433ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.35277778"
-       id="path442"
-       inkscape:connector-curvature="0" />
-    <path
-       d="m 41.982993,96.582403 c 0,-0.01842 0.01492,-0.03334 0.03334,-0.03334 h 32.036103 c 0.01842,0 0.03334,0.01492 0.03334,0.03334 v 21.717347 c 0,0.0184 -0.01492,0.0333 -0.03334,0.0333 H 42.01633 c -0.01842,0 -0.03334,-0.0149 -0.03334,-0.0333 z"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.35277778"
-       id="path444"
-       inkscape:connector-curvature="0" />
-    <text
-       id="text454"
-       style="font-variant:normal;font-weight:normal;font-size:6.3499999px;font-family:TiresiasPCfont;-inkscape-font-specification:TiresiasPCfont;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
-       x="43.420193"
-       y="105.13144">
-      <tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:FlamaLight;stroke-width:0.35277778"
-         id="tspan452"
-         sodipodi:role="line"
-         y="105.13144"
-         x="43.420193 46.529785 50.01403 54.622227 57.19207 60.301666 63.798611 67.003456 70.500404 70.561996">Low-Level</tspan>
-    </text>
-    <text
-       id="text460"
-       style="font-variant:normal;font-weight:normal;font-size:6.3499999px;font-family:TiresiasPCfont;-inkscape-font-specification:TiresiasPCfont;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
-       x="46.841686"
-       y="115.00922">
-      <tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:FlamaLight;stroke-width:0.35277778"
-         id="tspan458"
-         sodipodi:role="line"
-         y="115.00922"
-         x="46.841686 50.165279 53.659683 57.039154 59.420403 63.107212 65.5037 67.137558">Feature</tspan>
-    </text>
-    <path
-       inkscape:connector-curvature="0"
-       id="path464"
-       style="fill:none;stroke:#0433ff;stroke-width:1.01999974;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       d="m 74.262155,107.30879 h 7.446672" />
-    <path
-       d="m 79.668831,105.77879 3.059994,1.53 -3.059994,1.52999 z"
-       style="fill:#0433ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.35277778"
-       id="path466"
-       inkscape:connector-curvature="0" />
+     transform="translate(90.284709,-85.666838)">
     <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-34.471217,214.37363)"
+       id="g4236"
+       transform="translate(60.153462,0)">
+      <text
+         y="105.0316"
+         x="168.53958"
+         style="font-variant:normal;font-weight:normal;font-size:7.05555534px;font-family:TiresiasPCfont;-inkscape-font-specification:TiresiasPCfont;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         id="text424">
+        <tspan
+           x="168.53958 172.31572 174.97707 178.73204 180.70195 184.79558 188.55055 192.6089 194.74109 198.62306"
+           y="105.0316"
+           sodipodi:role="line"
+           id="tspan422"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:FlamaLight;stroke-width:0.35277778">Trainable</tspan>
+      </text>
+      <text
+         y="115.61493"
+         x="169.81427"
+         style="font-variant:normal;font-weight:normal;font-size:7.05555534px;font-family:TiresiasPCfont;-inkscape-font-specification:TiresiasPCfont;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         id="text430">
+        <tspan
+           x="169.81427"
+           sodipodi:role="line"
+           id="tspan428"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:FlamaLight;stroke-width:0.35277778"
+           y="115.61493">classifier</tspan>
+      </text>
+    </g>
+    <g
+       id="g4242"
+       transform="translate(-6.9846437,2.0668844)"
+       style="fill:#000000;stroke:#000000">
+      <path
+         d="m -1.3552742,106.28384 15.0313852,0"
+         style="fill:#000000;stroke:#000000;stroke-width:1.01999974;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path440"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path442"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35277778"
+         d="m 11.636123,104.75381 3.059994,1.53003 -3.059994,1.53 z" />
+    </g>
+    <g
+       id="g4218"
+       transform="translate(-30.439683,0)">
+      <text
+         y="105.13144"
+         x="43.420193"
+         style="font-variant:normal;font-weight:normal;font-size:6.3499999px;font-family:TiresiasPCfont;-inkscape-font-specification:TiresiasPCfont;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         id="text454">
+        <tspan
+           x="43.420193 46.529785 50.01403 54.622227 57.19207 60.301666 63.798611 67.003456 70.500404 70.561996"
+           y="105.13144"
+           sodipodi:role="line"
+           id="tspan452"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:FlamaLight;stroke-width:0.35277778">Low-Level</tspan>
+      </text>
+      <text
+         y="115.00922"
+         x="46.841686"
+         style="font-variant:normal;font-weight:normal;font-size:6.3499999px;font-family:TiresiasPCfont;-inkscape-font-specification:TiresiasPCfont;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         id="text460">
+        <tspan
+           x="46.841686"
+           sodipodi:role="line"
+           id="tspan458"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:FlamaLight;stroke-width:0.35277778"
+           y="115.00922">features</tspan>
+      </text>
+    </g>
+    <g
+       transform="matrix(0.57676375,0,0,-0.57676375,-128.62257,284.21251)"
        id="g468">
       <g
          id="g470"
@@ -258,84 +241,61 @@
         </g>
       </g>
     </g>
-    <path
-       d="m 82.508339,96.6265 c 0,-0.01838 0.01489,-0.0333 0.0333,-0.0333 h 32.036101 c 0.0184,0 0.0333,0.01492 0.0333,0.0333 v 21.71735 c 0,0.0184 -0.0149,0.0334 -0.0333,0.0334 H 82.541642 c -0.01841,0 -0.0333,-0.0149 -0.0333,-0.0334 z"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.35277778"
-       id="path494"
-       inkscape:connector-curvature="0" />
-    <text
-       id="text504"
-       style="font-variant:normal;font-weight:normal;font-size:6.3499999px;font-family:TiresiasPCfont;-inkscape-font-specification:TiresiasPCfont;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
-       x="84.01609"
-       y="105.17557">
-      <tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:FlamaLight;stroke-width:0.35277778"
-         id="tspan502"
-         sodipodi:role="line"
+    <g
+       id="g4224">
+      <text
          y="105.17557"
-         x="84.01609 89.510117 91.283035 94.935555 97.502228 100.60864 104.10242 107.31043 110.80421 110.86897">Mid-Level</tspan>
-    </text>
-    <text
-       id="text510"
-       style="font-variant:normal;font-weight:normal;font-size:6.3499999px;font-family:TiresiasPCfont;-inkscape-font-specification:TiresiasPCfont;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
-       x="87.296516"
-       y="115.05335">
-      <tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:FlamaLight;stroke-width:0.35277778"
-         id="tspan508"
-         sodipodi:role="line"
+         x="84.01609"
+         style="font-variant:normal;font-weight:normal;font-size:6.3499999px;font-family:TiresiasPCfont;-inkscape-font-specification:TiresiasPCfont;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         id="text504">
+        <tspan
+           x="84.01609 89.510117 91.283035 94.935555 97.502228 100.60864 104.10242 107.31043 110.80421 110.86897"
+           y="105.17557"
+           sodipodi:role="line"
+           id="tspan502"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:FlamaLight;stroke-width:0.35277778">Mid-Level</tspan>
+      </text>
+      <text
          y="115.05335"
-         x="87.296516 90.620102 94.11451 97.49398 99.875229 103.56203 105.95853 107.59238">Feature</tspan>
-    </text>
-    <path
-       inkscape:connector-curvature="0"
-       id="path514"
-       style="fill:none;stroke:#0433ff;stroke-width:1.01999974;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       d="m 114.83159,107.35292 h 7.44667" />
-    <path
-       d="m 120.23827,105.82289 3.06,1.53003 -3.06,1.53 z"
-       style="fill:#0433ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.35277778"
-       id="path516"
-       inkscape:connector-curvature="0" />
-    <path
-       d="m 123.07778,96.6265 c 0,-0.01838 0.0149,-0.0333 0.0333,-0.0333 h 32.0361 c 0.0184,0 0.0333,0.01492 0.0333,0.0333 v 21.71735 c 0,0.0184 -0.0149,0.0334 -0.0333,0.0334 h -32.0361 c -0.0184,0 -0.0333,-0.0149 -0.0333,-0.0334 z"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.35277778"
-       id="path518"
-       inkscape:connector-curvature="0" />
-    <text
-       id="text528"
-       style="font-variant:normal;font-weight:normal;font-size:5.99722195px;font-family:TiresiasPCfont;-inkscape-font-specification:TiresiasPCfont;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
-       x="124.38844"
-       y="105.2475">
-      <tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:FlamaLight;stroke-width:0.35277778"
-         id="tspan526"
-         sodipodi:role="line"
+         x="87.296516"
+         style="font-variant:normal;font-weight:normal;font-size:6.3499999px;font-family:TiresiasPCfont;-inkscape-font-specification:TiresiasPCfont;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         id="text510">
+        <tspan
+           x="87.296516"
+           sodipodi:role="line"
+           id="tspan508"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:FlamaLight;stroke-width:0.35277778"
+           y="115.05335">features</tspan>
+      </text>
+    </g>
+    <g
+       id="g4230"
+       transform="translate(39.342075,0)">
+      <text
          y="105.2475"
-         x="124.38844 128.48215 130.15897 133.61096 137.09296 139.51942 142.45567 145.75774 148.78394 152.08601 152.14359">High-Level</tspan>
-    </text>
-    <text
-       id="text534"
-       style="font-variant:normal;font-weight:normal;font-size:5.99722195px;font-family:TiresiasPCfont;-inkscape-font-specification:TiresiasPCfont;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
-       x="128.67845"
-       y="114.41973">
-      <tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:FlamaLight;stroke-width:0.35277778"
-         id="tspan532"
-         sodipodi:role="line"
+         x="124.38844"
+         style="font-variant:normal;font-weight:normal;font-size:5.99722195px;font-family:TiresiasPCfont;-inkscape-font-specification:TiresiasPCfont;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         id="text528">
+        <tspan
+           x="124.38844 128.48215 130.15897 133.61096 137.09296 139.51942 142.45567 145.75774 148.78394 152.08601 152.14359"
+           y="105.2475"
+           sodipodi:role="line"
+           id="tspan526"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:FlamaLight;stroke-width:0.35277778">High-Level</tspan>
+      </text>
+      <text
          y="114.41973"
-         x="128.67845 131.8174 135.11766 138.30939 140.55835 144.04033 146.30368 147.84677">Feature</tspan>
-    </text>
-    <path
-       inkscape:connector-curvature="0"
-       id="path538"
-       style="fill:none;stroke:#0433ff;stroke-width:1.01999974;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       d="m 155.3569,107.35292 h 7.44666" />
-    <path
-       d="m 160.76359,105.82289 3.05999,1.53003 -3.05999,1.53 z"
-       style="fill:#0433ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.35277778"
-       id="path540"
-       inkscape:connector-curvature="0" />
+         x="128.67845"
+         style="font-variant:normal;font-weight:normal;font-size:5.99722195px;font-family:TiresiasPCfont;-inkscape-font-specification:TiresiasPCfont;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         id="text534">
+        <tspan
+           x="128.67845"
+           sodipodi:role="line"
+           id="tspan532"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FlamaLight;-inkscape-font-specification:FlamaLight;stroke-width:0.35277778"
+           y="114.41973">features</tspan>
+      </text>
+    </g>
     <g
        transform="matrix(0.35277777,0,0,-0.35277777,-34.471217,214.37363)"
        id="g542">
@@ -405,66 +365,62 @@
         </g>
       </g>
     </g>
-    <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-34.471217,214.37363)"
-       id="g596">
-      <g
-         id="g598"
-         clip-path="url(#clipPath602)">
-        <g
-           id="g604"
-           transform="matrix(7.874014e-5,0,0,7.874014e-5,259.0956,243.2408)">
-          <path
-             d="M -0.1145594,-0.1282528 243804.8,418162.2"
-             style="fill:none;stroke:#00f900;stroke-width:36000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             id="path606"
-             inkscape:connector-curvature="0" />
-        </g>
-        <path
-           d="m 279.1105,269.1277 0.6101,9.4881 -7.9565,-5.2049 z"
-           style="fill:#00f900;fill-opacity:1;fill-rule:evenodd;stroke:none"
-           id="path608"
-           inkscape:connector-curvature="0" />
-        <g
-           id="g610"
-           transform="matrix(7.874014e-5,0,0,7.874014e-5,386.4706,243.2408)">
-          <path
-             d="M 0.02179319,-0.1282528 V 413262.5"
-             style="fill:none;stroke:#00f900;stroke-width:36000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             id="path612"
-             inkscape:connector-curvature="0" />
-        </g>
-        <path
-           d="m 390.7226,270.1119 -4.252,8.5039 -4.2519,-8.5039 z"
-           style="fill:#00f900;fill-opacity:1;fill-rule:evenodd;stroke:none"
-           id="path614"
-           inkscape:connector-curvature="0" />
-        <g
-           id="g616"
-           transform="matrix(-7.874014e-5,0,0,7.874014e-5,528.9706,243.2409)">
-          <path
-             d="M 0.0874598,0.03446707 283970.4,448999.2"
-             style="fill:none;stroke:#00f900;stroke-width:36000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             id="path618"
-             inkscape:connector-curvature="0" />
-        </g>
-        <path
-           d="m 506.0475,271.5309 -0.9519,9.46 8.139,-4.9144 z"
-           style="fill:#00f900;fill-opacity:1;fill-rule:evenodd;stroke:none"
-           id="path620"
-           inkscape:connector-curvature="0" />
-      </g>
-    </g>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-103.29214"
        y="235.6317"
-       id="text10428"><tspan
+       id="text10428"
+       sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan10426"
          x="-103.29214"
          y="235.6317"
          style="stroke-width:0.26458332px">taken from NIPS2015 tutorial from Geoff Hinton, Yoshua Bengio &amp; Yann LeCun</tspan></text>
+    <g
+       style="fill:#000000;stroke:#000000"
+       transform="translate(57.730218,2.0668844)"
+       id="g4246">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4248"
+         style="fill:#000000;stroke:#000000;stroke-width:1.01999974;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1.3552742,106.28384 15.0313852,0" />
+      <path
+         d="m 11.636123,104.75381 3.059994,1.53003 -3.059994,1.53 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35277778"
+         id="path4250"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4252"
+       transform="translate(131.56788,2.0668844)"
+       style="fill:#000000;stroke:#000000">
+      <path
+         d="m -1.3552742,106.28384 15.0313852,0"
+         style="fill:#000000;stroke:#000000;stroke-width:1.01999974;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path4254"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4256"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35277778"
+         d="m 11.636123,104.75381 3.059994,1.53003 -3.059994,1.53 z" />
+    </g>
+    <g
+       style="fill:#000000;stroke:#000000"
+       transform="translate(207.97133,2.0668844)"
+       id="g4258">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4260"
+         style="fill:#000000;stroke:#000000;stroke-width:1.01999974;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m -1.3552742,106.28384 15.0313852,0" />
+      <path
+         d="m 11.636123,104.75381 3.059994,1.53003 -3.059994,1.53 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35277778"
+         id="path4262"
+         inkscape:connector-curvature="0" />
+    </g>
   </g>
 </svg>
